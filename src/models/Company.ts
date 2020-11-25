@@ -9,23 +9,6 @@ export class Company {
 		this._name = name;
 	}
 
-    /**
-     * Getter siret
-     * @return {number}
-     */
-	public get siret(): number {
-		return this._siret;
-	}
-
-    /**
-     * Getter name
-     * @return {string}
-     */
-	public get name(): string {
-		return this._name;
-	}
-
-
     public computeAnnualTax(revenue: number) {
         return this._taxPercentage * revenue;
     };
