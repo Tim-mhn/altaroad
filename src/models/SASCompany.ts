@@ -2,7 +2,7 @@ import { Company } from "./Company";
 
 
 export class SASCompany extends Company {
-    public static readonly TAX_PERCENTAGE = .20;
+    public static readonly TAX_PERCENTAGE = .25;
 
     constructor(siret: number, name: string) {
         super(siret, name);
