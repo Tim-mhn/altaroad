@@ -23,3 +23,6 @@ impôts = 33% du CA annuel de l'entreprise
 
 **Note :** le CA de l'entreprise sera fourni au service par la classe de test et il n'est pas
 nécessaire de l'inclure dans les propriétés des entreprises.
+
+Run tests:
+``npm t`` 
