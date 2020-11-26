@@ -25,4 +25,4 @@ impôts = 33% du CA annuel de l'entreprise
 nécessaire de l'inclure dans les propriétés des entreprises.
 
 Run tests:
-``npm t`` 
+``npm test`` 
