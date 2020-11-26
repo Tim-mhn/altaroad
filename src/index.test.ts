@@ -2,7 +2,7 @@ import { SASCompany } from "./models/SASCompany";
 import { AutoCompany } from "./models/AutoCompany";
 
 test('SASCompany', () => {
-  const c = new SASCompany(0, "MySAS");
+  const c = new SASCompany(0, "MySAS", "Paris 75000");
   const income = 100000
   const tax = SASCompany.TAX_PERCENTAGE * income;
   expect(c.computeAnnualTax(income)).toBe(tax);
